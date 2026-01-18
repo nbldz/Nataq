@@ -1,25 +1,22 @@
 # Nataq (نطق) - AI Video Dubbing Application
 
-<div dir="rtl">
 
 ## نطق - تطبيق دبلجة الفيديو بالذكاء الاصطناعي
 
 تطبيق متقدم لدبلجة الفيديو يستخدم أحدث تقنيات الذكاء الاصطناعي لتوفير ترجمة ونسخ صوتي سلس بين العربية واللغات الأخرى، مع دعم متعدد اللهجات العربية.
 
-</div>
 
 ---
 
-## 🏆 Award Submission
 
 **Sharjah International Award for AI in Serving the Arabic Language**
 
 **Submitted by:**
-- **Developer:** Nobel
+- **Developer:** Dr.Nabil Hezil et al.
 - **Institution:** University of Sharjah, UAE
 - **Department:** Computer Engineering
 - **Supervisor:** Prof. Ahmed Bouridane
-- **Date:** December 2025
+
 
 ---
 
@@ -28,7 +25,6 @@
 Nataq is a production-ready desktop application that leverages state-of-the-art AI models to provide:
 
 - **Bidirectional Translation:** English ↔ Arabic (and 10+ other languages)
-- **Arabic Dialect Support:** MSA, Egyptian, Levantine, Gulf
 - **Voice Cloning:** Preserve speaker identity using reference audio
 - **GPU Acceleration:** Optimized for NVIDIA RTX GPUs
 - **Professional UI:** Bilingual interface (Arabic/English) with RTL support
@@ -142,7 +138,7 @@ Nataq is a production-ready desktop application that leverages state-of-the-art 
 - Python 3.10
 
 ### Recommended Configuration
-- Windows 11
+- Windows 10; 11
 - NVIDIA RTX 3090/4090/Titan (24GB VRAM)
 - 32GB RAM
 - SSD for faster processing
@@ -431,34 +427,7 @@ Distribution package includes:
 
 ---
 
-## 📸 Screenshots
 
-### Main Interface
-![Main Window](docs/screenshots/main_window.png)
-
-### Processing
-![Processing](docs/screenshots/processing.png)
-
-### Settings
-![Settings](docs/screenshots/settings.png)
-
----
-
-## 🎥 Demo
-
-For a video demonstration, see: `demo/nataq_demo.mp4`
-
-Demo showcases:
-1. Application startup
-2. Video selection
-3. Language configuration
-4. Processing pipeline
-5. Output preview
-6. Quality comparison
-
----
-
-## 📋 Award Submission Checklist
 
 - [x] Production-ready application
 - [x] GPU-accelerated processing
@@ -475,14 +444,12 @@ Demo showcases:
 
 ---
 
-<div dir="rtl">
 
 ## ملخص المشروع بالعربية
 
 نطق هو تطبيق متطور لدبلجة الفيديو يستخدم أحدث تقنيات الذكاء الاصطناعي لخدمة اللغة العربية. يوفر التطبيق:
 
 - **ترجمة ثنائية الاتجاه** بين العربية و 10+ لغات أخرى
-- **دعم اللهجات العربية** (الفصحى، المصرية، الشامية، الخليجية)
 - **نسخ الصوت** للحفاظ على هوية المتحدث
 - **معالجة مسرّعة** باستخدام معالجات الرسوم
 - **واجهة احترافية** ثنائية اللغة مع دعم الكتابة من اليمين لليسار
@@ -493,7 +460,6 @@ Demo showcases:
 - تسهيل التبادل الثقافي
 - تمكين منشئي المحتوى العربي
 
-</div>
 
 ---
 
