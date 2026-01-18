@@ -1,0 +1,79 @@
+# Nataq - AI Video Dubbing Application
+# Requirements for Windows 11 with NVIDIA GPU
+# Tested on: RTX Titan 24GB, Python 3.10, Windows 11
+# Updated: December 2025
+
+# Core Dependencies
+# CRITICAL: Install PyTorch FIRST with CUDA 11.8
+# Run: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch (install separately as shown above)
+# torch (latest cu118)
+# torchvision (latest cu118)
+# torchaudio (latest cu118)
+
+# GUI Framework
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+
+# AI Models - Speech Recognition
+openai-whisper>=20231117
+tiktoken>=0.5.0
+
+# AI Models - Translation
+transformers>=4.36.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0,<4.0.0
+sacremoses>=0.1.0
+
+# AI Models - Text-to-Speech
+# Use stable TTS version
+TTS>=0.22.0
+# TTS dependencies
+pydub>=0.25.1
+librosa>=0.10.0
+soundfile>=0.12.1
+numba>=0.58.0
+# gruut - Skip if causes issues, TTS will use fallback
+# phonemizer - Skip if causes issues
+
+# Video Processing
+ffmpeg-python==0.2.0
+# NOTE: Requires FFmpeg installed separately on system
+
+# Utilities
+numpy<2.0.0
+scipy>=1.11.0
+Pillow>=10.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Language Processing
+nltk==3.8.1
+jieba==0.42.1
+
+# Configuration
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# AVOID THESE (they cause Windows compilation errors):
+# spacy - requires C++ compilation
+# blis - requires Visual C++ Build Tools
+# pyannote.audio - dependency conflicts
+# nemo_toolkit - too heavy, conda-dependent
+
+# PyInstaller for .exe creation (optional, only needed for building executable)
+# pyinstaller>=6.0.0
+# pyinstaller-hooks-contrib>=2023.0
+
+# Alternative simple TTS (fallback)
+gTTS==2.5.0
+
+# Hugging Face Hub
+huggingface-hub==0.20.1
+
+# Additional utilities
+python-dateutil==2.8.2
+six==1.16.0
